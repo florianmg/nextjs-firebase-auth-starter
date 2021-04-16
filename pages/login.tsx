@@ -1,5 +1,7 @@
 import React from 'react'
 
+import style from '../styles/Login.module.scss'
+
 const Login: React.FC = () => {
   return (
     <div>
