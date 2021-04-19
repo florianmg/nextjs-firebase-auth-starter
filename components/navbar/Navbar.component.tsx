@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 
-import { HOME, LOGIN, SIGNUP } from '../../constants/links'
+import { HOME, LOGIN, SIGNUP, DASHBOARD } from '../../constants/links'
 
 const Navbar: React.FC = () => {
   return (
@@ -20,6 +20,11 @@ const Navbar: React.FC = () => {
         <li>
           <Link href={SIGNUP.path}>
             <a>{SIGNUP.name}</a>
+          </Link>
+        </li>
+        <li>
+          <Link href={DASHBOARD.path}>
+            <a>{DASHBOARD.name}</a>
           </Link>
         </li>
       </ul>

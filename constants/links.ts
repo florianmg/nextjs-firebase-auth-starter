@@ -10,5 +10,9 @@ const SIGNUP = {
   name: "S'enregistrer",
   path: '/signup',
 }
+const DASHBOARD = {
+  name: 'Dashboard',
+  path: '/dashboard',
+}
 
-export { HOME, LOGIN, SIGNUP }
+export { HOME, LOGIN, SIGNUP, DASHBOARD }
