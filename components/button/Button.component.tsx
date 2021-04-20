@@ -25,7 +25,7 @@ const Button: React.FC<ButtonProps> = ({
       {image !== undefined && <img src={image.src} alt={image.alt} />}
       <input
         onClick={onClick}
-        type="button"
+        type="submit"
         value={value}
         className={style['input-button']}
       />
